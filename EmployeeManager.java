@@ -1,21 +1,13 @@
 package com.example.demo.unsolid;
 
-public class EmployeeManager implements EmployeeOperations {
+public class EmployeeManager {
 
-    public void addEmployee(String name) {
+    public void addEmployee(Employee employee) {
         // Agregar empleado
     }
 
-    public void removeEmployee(String name) {
+    public void removeEmployee(Employee employee) {
         // Eliminar empleado
     }
 
-    public double calculateSalary(String name) {
-        // Calcular salario
-        return 0.0;
-    }
-
-    public void saveToFile(String name) {
-        // Guardar en archivo
-    }
 }

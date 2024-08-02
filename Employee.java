@@ -1,18 +1,12 @@
 package com.example.demo.unsolid;
 
-// Esto Es Otra Prueba
-// Esto es prueba final
-//Esto es una prueba
-public class Employee {
+public interface Employee {
 
-    String name;
-    String departament;
+    String getName();
+    String getDepartament();
 
-    public String getName() {
-        return name;
-    }
+    int getSalario();
 
-    public String getDepartament() {
-        return departament;
-    }
+
 }
+

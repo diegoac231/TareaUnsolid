@@ -22,6 +22,6 @@ public class FullTimeEmployee implements Employee {
 
     @Override
     public int getSalario() {
-        return 10;
+        return 10; // Valor arbitrario para probar
     }
 }

@@ -22,6 +22,6 @@ public class PartTimeEmployee implements Employee {
 
     @Override
     public int getSalario() {
-        return 5;
+        return 5; // Valor arbitrario para probar
     }
 }

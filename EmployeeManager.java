@@ -5,7 +5,7 @@ import java.util.List;
 
 public class EmployeeManager {
 
-    List<Employee> empleados = new ArrayList<>();
+    private List<Employee> empleados = new ArrayList<>();
     public void addEmployee(Employee employee) {
         // Agregar empleado
         empleados.add(employee);
@@ -16,4 +16,7 @@ public class EmployeeManager {
         empleados.remove(employee);
     }
 
+    public List<Employee> getEmpleados() {
+        return empleados;
+    }
 }

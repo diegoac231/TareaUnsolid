@@ -18,5 +18,5 @@ El principio de segregación de interfaces se violaba en la clase EmployeeOperat
 #### Inversión dependencias
 Finalmente, el principio de inversión dependencias estaba violado por la clase de ReportGenerator, pues esta generaba dependencia de una sola clase de bajo nivel. Se realizo una interfaz Report y clases para cada uno de los formatos, para poder solucionar este principio.
 #### Conclusión:
-En este repositorio encontrará nuestra solución para tener un código que cumpla con los principios SOLID y que siga teniendo la misma funcionalidad.
+Con el ejercicio propuesto, se logro de manera practica repasar y llevar a cabo los principios SOLID. Esto con el objetivo de lograr un código mas mantenible, mas suceptible a cambios y escalable. En este repositorio encontrará nuestra solución para tener un código que cumpla con los principios SOLID y que siga teniendo la misma funcionalidad.
 
